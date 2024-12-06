@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # cybersecurity-website-info442
 =======
 # Names
