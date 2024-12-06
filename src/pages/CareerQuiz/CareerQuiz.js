@@ -279,10 +279,9 @@ export function CareerMatchQuiz() {
   </div>
 
   <div className="instructions-content">
-    <p>1. Log in if you would like to save your career result.</p>
-    <p>2. Start the quiz and answer all 8 quiz questions to the best of your ability.</p>
-    <p>3. After completion, you will be matched with one of six career areas: Red Team, Blue Team, Security/Software Engineer, Information Security Analyst, GRC, and Digital Forensics.</p>
-    <p>4. Each matched career page will allow you to explore career specifics as well as recommended resources within the Seattle area.</p>
+    <p>1. Start the quiz and answer all 8 quiz questions to the best of your ability.</p>
+    <p>2. After completion, you will be matched with one of six career areas: Red Team, Blue Team, Security/Software Engineer, Information Security Analyst, GRC, and Digital Forensics.</p>
+    <p>3. Each matched career page will allow you to explore career specifics as well as recommended resources within the Seattle area.</p>
   </div>
 
   <button onClick={handleStartQuiz}>Start Quiz</button>

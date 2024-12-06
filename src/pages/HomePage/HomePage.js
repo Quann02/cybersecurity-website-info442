@@ -9,7 +9,7 @@ const HomePage = () => {
         <h1>Seattle's Guide to Cybersecurity Careers</h1>
         <p>Our mission is to bridge the gap between Seattle students and Cybersecurity careers.</p>
         <div className="home-buttons">
-          <a href="/careerquiz" className="btn">Get Started</a>
+        <Link to="/careerquiz" className="btn">Get Started</Link>
         </div>
       </header>
 
