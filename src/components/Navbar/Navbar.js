@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
         <li>
-          <NavLink to="/home" activeClassName="active" exact>
+          <NavLink to="/" activeClassName="active" exact>
             Home
           </NavLink>
         </li>
