@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar/Navbar.js";
 import Footer from "./components/Footer/Footer.js";
 
 import HomePage from "./pages/HomePage/HomePage";
-import AccountPage from "./pages/Account/AccountPage.js";
 //import LearnMore from "./pages/LearnMore/LearnMore.js";
 import Profile from './pages/Profile/Profile.js';
 import CareerQuiz from './pages/CareerQuiz/CareerQuiz.js';
@@ -26,7 +25,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/home" element={<HomePage />} />
-        <Route path="/account" element={<AccountPage />} />
         <Route path="/tipsandtricks" element={<TipsAndTricks />} />
         <Route path="/toolkit" element={<ToolKit />} />
         <Route path="/profile" element={<Profile />} />
